@@ -10,7 +10,7 @@ Earthquakes are natural disasters that can cause significant damage and loss of 
 This project aims to predict the magnitude and probability of Earthquake occurring in a particular region (California, United States) from the historic data of that region using various Machine learning models.
 
 <h2>Dataset</h2>
-The dataset used in this project is called the <a href="https://drive.google.com/file/d/10W_uHgQXfptWmsiQCGJ_dvgRMXSkyks8/view?usp=drive_link">"SOCR Earthquake Dataset"</a>, and it contains information about earthquakes that have occurred with a magnitude of 3.0 or greater in Jammu and Kashmir, India.
+The dataset used in this project is called the <a href="https://drive.google.com/file/d/10W_uHgQXfptWmsiQCGJ_dvgRMXSkyks8/view?usp=drive_link">"USGS EarthQuake Dataset"</a>, and it contains information about earthquakes that have occurred with a magnitude of 3.0 or greater in Jammu and Kashmir, India.
 
 Each row in the dataset represents a single earthquake event and includes the following information:
 
