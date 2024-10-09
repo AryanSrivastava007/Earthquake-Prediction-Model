@@ -176,8 +176,11 @@ The predicted values from SVM model when evaluated using mse and r2 metrics:
 
 <p>The results we obtained from the random forest model were as follows:</p>
 <ul>
-  <li>Mean squared error (MSE): 0.15599</li>
-  <li>R-squared (R2) score: 0.14288</li>
+  Model Performance Results:
+               Model  R^2 Score  Mean Squared Error  Mean Absolute Error
+0  Linear Regression  -0.019941            0.352999             0.465434
+1                SVM   0.027278            0.336656             0.447647
+2      Random Forest   0.031367            0.335241             0.444737
 </ul>
 <p>These results indicate that the random forest model was able to accurately predict the magnitude of earthquakes based on the given features. The low MSE and high R2 score indicate that the model was making accurate predictions, and was able to explain a large proportion of the variance in the target variable.</p>
 
