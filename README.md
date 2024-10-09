@@ -175,13 +175,36 @@ The predicted values from SVM model when evaluated using mse and r2 metrics:
 </div>
 
 <p>The results we obtained from the random forest model were as follows:</p>
-<ul>
-  <li>Model Performance Results:</li>
-               <li>Model  R^2 Score  Mean Squared Error  Mean Absolute Error</li>
-<li>0  Linear Regression  -0.019941            0.352999             0.465434</li>
-<li>1                SVM   0.027278            0.336656             0.447647</li>
-<li>2      Random Forest   0.031367            0.335241             0.444737</li>
-</ul>
+<table border="1">
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th>R² Score</th>
+      <th>Mean Squared Error</th>
+      <th>Mean Absolute Error</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Linear Regression</td>
+      <td>-0.019941</td>
+      <td>0.352999</td>
+      <td>0.465434</td>
+    </tr>
+    <tr>
+      <td>SVM</td>
+      <td>0.027278</td>
+      <td>0.336656</td>
+      <td>0.447647</td>
+    </tr>
+    <tr>
+      <td>Random Forest</td>
+      <td>0.031367</td>
+      <td>0.335241</td>
+      <td>0.444737</td>
+    </tr>
+  </tbody>
+</table>
 <p>These results indicate that the random forest model was able to accurately predict the magnitude of earthquakes based on the given features. The low MSE and high R2 score indicate that the model was making accurate predictions, and was able to explain a large proportion of the variance in the target variable.</p>
 
 <p>Overall, the random forest algorithm is a powerful tool for machine learning tasks, and can be used in a variety of applications, including finance, healthcare, and image recognition</p>
