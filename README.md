@@ -118,8 +118,8 @@ We will use four models in this project:
 
 <p>The results we obtained from the linear regression model were as follows:</p>
 <ul>
-  <li>Mean squared error (MSE): 0.17562</li>
-  <li>R-squared (R2) score: 0.03498</li>
+  <li>Mean squared error (MSE): 0.35</li>
+  <li>R-squared (R2) score: -0.0199</li>
 </ul>
 
 <h3>SVM</h3>
@@ -138,7 +138,6 @@ SVM can handle both linear and non-linear data by using different kernels that t
 Once the SVM model has been trained on the data, it can be used to predict the magnitude of a new earthquake given its features (latitude, longitude, depth, and number of seismic stations). This can be useful for predicting the magnitude of earthquakes in real-time and for better understanding the factors that contribute to earthquake occurrence.
 </p>
 <div align="center">
-<img src="https://github.com/akash-r34/Earthquake-prediction-using-Machine-learning-models/blob/main/images/SVM_plot.png"><br>
 <b><i>Figure 6<br>SVM plot using matplotlib.pyplot library(python)</i></b>
  <br>
  <br>
@@ -147,8 +146,8 @@ Once the SVM model has been trained on the data, it can be used to predict the m
 The predicted values from SVM model when evaluated using mse and r2 metrics:
 <br>
 <ul>
-  <li>Mean squared error (MSE): 0.53166</li>
-  <li>R-squared (R2) score: -1.92129</li>
+  <li>Mean squared error (MSE): 0.336</li>
+  <li>R-squared (R2) score: 0.02727</li>
 </ul>
 </p>
 
@@ -207,7 +206,7 @@ The predicted values from SVM model when evaluated using mse and r2 metrics:
 </table>
 <p>These results indicate that the random forest model was able to accurately predict the magnitude of earthquakes based on the given features. The low MSE and high R2 score indicate that the model was making accurate predictions, and was able to explain a large proportion of the variance in the target variable.</p>
 
-<p>Overall, the random forest algorithm is a powerful tool for machine learning tasks, and can be used in a variety of applications, including finance, healthcare, and image recognition</p>
+<p>Overall, the random forest algorithm is a powerful tool for machine learning task, and can be used in a variety of applications, including finance, healthcare, and image recognition</p>
 
 
 <h3>Conclusion</h3>
